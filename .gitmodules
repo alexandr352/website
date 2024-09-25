@@ -1,4 +1,0 @@
-[submodule "app"]
-	path = app
-	url = git@github.com:alexandr352/prototype.git
-	branch = deploy

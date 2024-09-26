@@ -26,5 +26,5 @@ jobs:
         REPO: self
         BRANCH: deploy
         FOLDER: dist
-        GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         MESSAGE: "Build: ({sha}) {msg}"

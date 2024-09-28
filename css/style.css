@@ -140,10 +140,19 @@ h4 + p {
   background-color: #e0f2f1;
 }
 @media only screen and (min-width: 800px) {
-  section {
-    padding: 1em;
+  html {
+    font-size: 18px;
+  }
+  .split {
+    display: flex;
+  }
+  .split section {
+    width: 50%;
   }
   main > section:first-child {
-    padding-top: 5em;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: end;
   }
 }
